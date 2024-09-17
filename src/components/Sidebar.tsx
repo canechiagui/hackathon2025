@@ -46,7 +46,7 @@ const Sidebar: React.FC<SidebarProps> = ({ locations, onLocationSelect,handleSea
         {locations.map((location) => (
           <li
             key={location.id}
-            className="location-item"
+            className="location-item hover:bg-slate-300"
             onClick={() => onLocationSelect(location.lat, location.lon,location)}>
             {location.name}
           </li>

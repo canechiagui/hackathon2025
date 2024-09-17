@@ -68,6 +68,10 @@ html, body {
   z-index: 2;
   text-align: center;
 }
+.sidebar .location-list{
+    overflow-y: auto; /* Add scrolling to the list */
+    max-height: calc(100vh - 150px);
+}
 
 .sidebar .location-item {
   padding: 15px;
@@ -106,8 +110,8 @@ html, body {
 .sidebar-header{
     width: 100%;
     display: flex;
-    padding: 10px;;
     align-items: center;
+    padding: 0px;
 }
 
 .sidebar-header .close-icon{
@@ -131,7 +135,7 @@ html, body {
   height: 100%;
   padding: 10px 15px;
   margin-left: 10px;
-  margin-right: 20px;
+  margin-right: 10px;
   border: 1px solid #ced4da;
   border-radius: 25px;
   font-size: 16px;
@@ -234,10 +238,14 @@ html, body {
     display: flex;
     justify-items: center;
     margin-top: 10px;
+    padding: 10px;
+   
   }
   .sidebar-header .close-icon{
     display: flex;
   }
+
+  
  
 
   .map-container {

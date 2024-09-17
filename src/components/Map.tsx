@@ -2,6 +2,7 @@ import { MapContainer, TileLayer,useMap, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Location } from '../types';
 import { useState ,useEffect} from 'react';
+import L from 'leaflet';
 
 
 interface MapProps {
@@ -21,7 +22,9 @@ const MapView: React.FC<{ currLocation: Location }> = ({ currLocation }) => {
               easeLinearity: 0.25, 
             });
           }
+          map.zoomControl.setPosition('bottomright'); 
     }, [currLocation, map]);
+
   
     return null;
   };
@@ -29,6 +32,7 @@ const MapView: React.FC<{ currLocation: Location }> = ({ currLocation }) => {
 const Map: React.FC<MapProps> = ({ locations ,currLocation}) => {
   const defaultPosition: [number, number] = [52.52, 13.405]; // Default center position (Berlin)
 
+  console.log(locations);
 
   return (
     <div className="map-container">
@@ -40,9 +44,9 @@ const Map: React.FC<MapProps> = ({ locations ,currLocation}) => {
         {locations.map((location) => (
           <Marker key={location.id} position={[location.lat, location.lon]}>
             <Popup>
-              {location.imageUrl && (
+              {location.imageUrls && (
                 <img
-                  src={location.imageUrl}
+                  src={location.imageUrls[0]}
                   alt={location.name}
                   style={{ width: '100%', height: 'auto' }}
                 />
