@@ -2,7 +2,14 @@ import { MapContainer, TileLayer,useMap, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Location } from '../types';
 import { useState ,useEffect} from 'react';
-import L from 'leaflet';
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+  } from "@/components/ui/carousel"
+  
 
 
 interface MapProps {
@@ -42,17 +49,29 @@ const Map: React.FC<MapProps> = ({ locations ,currLocation}) => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         {locations.map((location) => (
-          <Marker key={location.id} position={[location.lat, location.lon]}>
-            <Popup>
-              {location.imageUrls && (
-                <img
-                  src={location.imageUrls[0]}
-                  alt={location.name}
-                  style={{ width: '100%', height: 'auto' }}
-                />
+          <Marker  key={location.id} position={[location.lat, location.lon]}>
+            <Popup  >
+            {location.imageUrls && location.imageUrls.length > 0 && (
+                <div className=" relative ">
+                  <Carousel>
+                    <CarouselContent >
+                      {location.imageUrls.map((url, index) => (
+                        <CarouselItem key={index} className="w-full  max-h-[150px]">
+                          <img
+                            src={url}
+                            alt={location.name}
+                            className="w-full h-full object-cover"
+                          />
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                    <CarouselPrevious className="absolute top-1/2 left-4 transform-none"  />
+                    <CarouselNext className="absolute top-1/2 right-4 transform-none" />
+                  </Carousel>
+                </div>
               )}
-              <h3>{location.name}</h3>
-              <p>{location.description}</p>
+              <h3 className='text-lg '>{location.name}</h3>
+              <p >{location.description}</p>
               <a href={location.moreInfoUrl} target="_blank" rel="noopener noreferrer">
                 More Info
               </a>

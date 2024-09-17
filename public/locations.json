@@ -6,7 +6,7 @@
     "lat": 52.52,
     "lon": 13.405,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Berlin",
-    "imageUrls": ["https://i.natgeofe.com/n/b234ec7d-a988-4b75-9e65-749ddcbea7a0/citylife_berlin_2B4H3T1_web_2x1.jpg", "https://cdn.britannica.com/49/179449-138-9F4EC401/Overview-Berlin.jpg?w=800&h=450&c=crop"]
+    "imageUrls": ["https://www.travelandleisure.com/thmb/Etq4zWgOW-z9H7ZScs5_6WDcDvQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/berlin-germany-aerial-lead-BERLINTG0921-475e3a333c7f4fdea7743c6fc2f261af.jpg","https://i.natgeofe.com/n/b234ec7d-a988-4b75-9e65-749ddcbea7a0/citylife_berlin_2B4H3T1_web_2x1.jpg", "https://cdn.britannica.com/49/179449-138-9F4EC401/Overview-Berlin.jpg?w=800&h=450&c=crop"]
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "lat": 53.5511,
     "lon": 9.9937,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Hamburg",
-    "imageUrls": ["https://upload.wikimedia.org/wikipedia/commons/7/79/Skyline_Berlin_Mitte.jpg"]
+    "imageUrls": ["https://media.tacdn.com/media/attractions-content--1x-1/12/29/3f/49.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqmKkQB52CKSXBdW-2VlMdC3Il5ceQge_mQ&s","https://thewell-travelledpostcard.com/wp-content/uploads/2018/06/img_4002.jpg?w=878&h=702"]
   },
   {
     "id": 3,
