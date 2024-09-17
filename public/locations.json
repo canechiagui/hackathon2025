@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Berlin",
+    "description": "The capital city of Germany, also a federal state in its own right.",
+    "lat": 52.52,
+    "lon": 13.405,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Berlin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Skyline_Berlin_Mitte.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hamburg",
+    "description": "A city-state in northern Germany, known for its port and maritime heritage.",
+    "lat": 53.5511,
+    "lon": 9.9937,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Hamburg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Hamburg_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bremen",
+    "description": "A city-state in northwestern Germany, part of the Bremen-Oldenburg metropolitan region.",
+    "lat": 53.0793,
+    "lon": 8.8017,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Bremen",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/City_of_Bremen_%28Germany%29_Skyline_from_Bremen_Weserpark.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Munich",
+    "description": "The capital of Bavaria, famous for its Oktoberfest and cultural attractions.",
+    "lat": 48.1351,
+    "lon": 11.582,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Munich",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Munich_Panorama.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Stuttgart",
+    "description": "The capital of Baden-Württemberg, a hub for the automotive industry.",
+    "lat": 48.7758,
+    "lon": 9.1829,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Stuttgart",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Stuttgart_Aug_2020.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Düsseldorf",
+    "description": "The capital of North Rhine-Westphalia, known for its fashion industry and art scene.",
+    "lat": 51.2277,
+    "lon": 6.7735,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Düsseldorf",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/D%C3%BCsseldorf_Medienhafen.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Hannover",
+    "description": "The capital of Lower Saxony, known for its trade fairs and gardens.",
+    "lat": 52.3759,
+    "lon": 9.732,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Hanover",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hannover_skyline.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Wiesbaden",
+    "description": "The capital of Hesse, famous for its thermal springs and spa culture.",
+    "lat": 50.0826,
+    "lon": 8.24,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Wiesbaden",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Wiesbaden_-_Luftbild_001.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mainz",
+    "description": "The capital of Rhineland-Palatinate, known for its Roman history and wine culture.",
+    "lat": 49.9929,
+    "lon": 8.2473,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Mainz",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mainz_Skyline_vom_Zollhafen_April_2006.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Saarbrücken",
+    "description": "The capital of Saarland, located near the French border.",
+    "lat": 49.2402,
+    "lon": 6.9969,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Saarbrücken",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Saarbr%C3%BCcken_mit_Ludwigskirche.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Kiel",
+    "description": "The capital of Schleswig-Holstein, known for its maritime heritage and proximity to the Baltic Sea.",
+    "lat": 54.3233,
+    "lon": 10.1228,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Kiel",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kiel_7.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Magdeburg",
+    "description": "The capital of Saxony-Anhalt, a city with a rich medieval history.",
+    "lat": 52.1205,
+    "lon": 11.6276,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Magdeburg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Magdeburg_01.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Potsdam",
+    "description": "The capital of Brandenburg, known for its palaces and parks.",
+    "lat": 52.3906,
+    "lon": 13.0645,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Potsdam",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Potsdam_-_Panorama_von_Sanssouci_01.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Erfurt",
+    "description": "The capital of Thuringia, famous for its well-preserved medieval city center.",
+    "lat": 50.9848,
+    "lon": 11.0299,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Erfurt",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Erfurt.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Dresden",
+    "description": "The capital of Saxony, known for its art museums and Baroque architecture.",
+    "lat": 51.0504,
+    "lon": 13.7373,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Dresden",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Dresden_panorama_summer.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Schwerin",
+    "description": "The capital of Mecklenburg-Western Pomerania, known for its picturesque lakes and castles.",
+    "lat": 53.6355,
+    "lon": 11.414,
+    "moreInfoUrl": "https://en.wikipedia.org/wiki/Schwerin",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Schwerin-Schloss_Panorama.jpg"
+  }
+]

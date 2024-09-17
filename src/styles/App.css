@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* MAP STYLES */
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.map-marker {
+  background-color: #28a745; /* Зеленый цвет маркеров, как в 2GIS */
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.map-popup {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  max-width: 200px;
+}
+
+.map-popup h2 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.map-popup p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* SIDEBAR STYLES*/
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #f8f9fa; /* Светло-серый фон */
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.sidebar .location-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .location-item:hover {
+  background-color: #e9ecef; /* Hover эффект при наведении */
+}
+
+.sidebar .location-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.sidebar .location-item h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.sidebar .location-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.sidebar-header{
+    width: 100%;
+    display: flex;
+    padding: 10px;;
+    align-items: center;
+}
+
+.sidebar-header .close-icon{
+    display: none;
+    flex:1;
+}
+.sidebar-header .search-bar{
+    flex:4;
+}
+
+/* SEARCH STYLES*/
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 25px;
+  font-size: 16px;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #28a745; /* Зеленый цвет при фокусе */
+}
+
+.search-icon {
+  position: absolute;
+  right: 30px;
+  color: #6c757d;
+}
+
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 5px;
+}
+
+.search-suggestion-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-suggestion-item:hover {
+  background-color: #e9ecef; /* Hover эффект для предложений */
+}
+
+.search-suggestion-item h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.map {
+  flex-grow: 1;
+  margin-left: 300px; /* Оставляем место для боковой панели */
+  position: relative;
+}
+
+
+/*Toggle button to open menu*/
+
+.toggle-button{
+   visibility: hidden;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    right: 0;
+    margin-top: 10px;
+    margin-right:10px ;
+    padding: 4px;
+    font-size: large;
+    z-index: 2;
+    background-color: transparent;
+    border: 0;
+}
+
+.close-icon{
+    width: auto;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+
+  
+  .toggle-button{
+    visibility: visible;
+  }  
+  .sidebar {
+    padding: 0px;
+    transform: translateX(-100%); /* Hidden by default */
+    transition: transform 0.3s ease;
+  }
+  .sidebar .location-list{
+    padding: 20px;
+  }
+
+  .sidebar.active {
+    transform: translateX(0); /* Slide in on click */
+    width: 100%;
+  }
+
+  .sidebar-header{
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    margin-top: 10px;
+  }
+  .sidebar-header .close-icon{
+    display: flex;
+  }
+ 
+
+  .map-container {
+    height: 100vh; /* Full-screen map when sidebar is hidden */
+  }
+}
