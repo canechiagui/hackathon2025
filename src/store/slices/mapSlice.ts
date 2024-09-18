@@ -4,17 +4,14 @@ import { createSlice } from '@reduxjs/toolkit';
 const mapSlice = createSlice({
   name: 'map',
   initialState: {
-    isMoved: true
+    mapMovedTrigger: true
   },
   reducers: {
-    startMoveToLocation: (state) => {
-      state.isMoved = true;
-    },
-    finishMoveToLocation: (state) => {
-      state.isMoved = false;
+    trigger:(state)=>{
+        state.mapMovedTrigger = !state.mapMovedTrigger;
     }
   }
 });
 
-export const { startMoveToLocation, finishMoveToLocation } = mapSlice.actions;
+export const { trigger } = mapSlice.actions;
 export default mapSlice.reducer;

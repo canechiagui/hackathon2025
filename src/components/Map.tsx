@@ -1,10 +1,10 @@
 import { MapContainer, TileLayer,useMap, Marker } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Location } from '../types';
-import {  useEffect , useState} from 'react';
+import {  useEffect } from 'react';
 import CityCard from "./CityCard"
-import { useDispatch, useSelector } from 'react-redux';
-import { finishMoveToLocation } from '@/store/slices/mapSlice';
+import {  useSelector } from 'react-redux';
+
 
 
 interface MapProps {
@@ -15,8 +15,7 @@ interface MapProps {
 
 const MapView: React.FC<{ currLocation: Location }> = ({ currLocation }) => {
     const map = useMap();
-    const dispatch = useDispatch();
-    const mapMovements = useSelector((state: any) => state.map.isMoved);
+    const mapMovements = useSelector((state: any) => state.map.mapMovedTrigger);
    
    
   
@@ -29,7 +28,6 @@ const MapView: React.FC<{ currLocation: Location }> = ({ currLocation }) => {
             });
           }
           map.zoomControl.setPosition('bottomright'); 
-          dispatch(finishMoveToLocation());
     }, [currLocation, map,mapMovements]);
 
   

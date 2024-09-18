@@ -6,7 +6,7 @@ import { Location } from './types';
 import './styles/App.css';
 import { useDispatch } from 'react-redux';
 import { close } from './store/slices/sideBarSlice';
-import { startMoveToLocation } from './store/slices/mapSlice';
+import { trigger } from './store/slices/mapSlice';
 
 const App: React.FC = () => {
   const [locations, setLocations] = useState<Location[]>([]);
@@ -43,13 +43,12 @@ const App: React.FC = () => {
     dispatch(close());
     setFilteredLocations(locations);
 
-   
 
   
     if (searchInputRef.current) {
         searchInputRef.current.value = ""; // Correctly clearing the input field
       }
-      dispatch(startMoveToLocation());
+      dispatch(trigger());
   };
 
   return (
