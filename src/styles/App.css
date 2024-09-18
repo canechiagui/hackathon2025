@@ -69,6 +69,11 @@ html, body {
   text-align: center;
 }
 .sidebar .location-list{
+    overflow-y: hidden; /* Add scrolling to the list */
+    max-height: calc(100vh - 150px);
+}
+
+.sidebar .location-list:hover{
     overflow-y: auto; /* Add scrolling to the list */
     max-height: calc(100vh - 150px);
 }

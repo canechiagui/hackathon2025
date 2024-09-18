@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef } from 'react';
 import Header from './components/Header';
 import Map from './components/Map';
 import Sidebar from './components/Sidebar';
@@ -6,11 +6,13 @@ import { Location } from './types';
 import './styles/App.css';
 import { useDispatch } from 'react-redux';
 import { close } from './store/slices/sideBarSlice';
+import { startMoveToLocation } from './store/slices/mapSlice';
 
 const App: React.FC = () => {
   const [locations, setLocations] = useState<Location[]>([]);
   const [currLocation,setCurrLocation] = useState<Location>(locations[0]);
   const [filteredLocations, setFilteredLocations] = useState<Location[]>([]);
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
   const dispatch = useDispatch();
 
   // Fetch locations from the static JSON file
@@ -25,10 +27,11 @@ const App: React.FC = () => {
     fetchLocations();
   }, []);
 
-  const handleSearch = (query: string) => {
+  const handleSearch = (query:string) => {
     const filtered = locations.filter((location) =>
       location.name.toLowerCase().includes(query.toLowerCase()),
     );
+   
     setFilteredLocations(filtered);
   };
 
@@ -38,12 +41,21 @@ const App: React.FC = () => {
     console.log('Zoom to location:', lat, lon);
     setCurrLocation(location);
     dispatch(close());
+    setFilteredLocations(locations);
+
+   
+
+  
+    if (searchInputRef.current) {
+        searchInputRef.current.value = ""; // Correctly clearing the input field
+      }
+      dispatch(startMoveToLocation());
   };
 
   return (
     <div className="app">
       <Header />
-      <Sidebar locations={filteredLocations}  onLocationSelect={handleLocationSelect} handleSearch={handleSearch}  />
+      <Sidebar locations={filteredLocations} searchInputRef={searchInputRef}   onLocationSelect={handleLocationSelect} handleSearch={handleSearch}  />
       <Map locations={filteredLocations} currLocation={currLocation} />
     </div>
   );

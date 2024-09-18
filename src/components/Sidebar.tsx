@@ -8,9 +8,10 @@ interface SidebarProps {
   locations: Location[];
   onLocationSelect: (lat: number, lon: number,location:Location) => void;
   handleSearch :(query:string) =>void;
+  searchInputRef : React.RefObject<HTMLInputElement > ;
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ locations, onLocationSelect,handleSearch }) => {
+const Sidebar: React.FC<SidebarProps> = ({ locations, onLocationSelect,handleSearch,searchInputRef }) => {
 
     const dispatch = useDispatch();
     const isSidebarVisible = useSelector((state: any) => state.sidebar.isActive);
@@ -36,7 +37,7 @@ const Sidebar: React.FC<SidebarProps> = ({ locations, onLocationSelect,handleSea
             <button className='transparent' onClick={closeSideBar}>
             <svg  className='close-icon' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </button>
-            <Search onSearch={handleSearch} />
+            <Search onSearch={handleSearch} searchInputRef={searchInputRef} />
         </div>
       
 
