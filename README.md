@@ -34,9 +34,6 @@ Before you begin, ensure you have the following tools installed:
 
    `````bash
    git clone https://github.com/yourusername/map-app.git
-   ```Navigate to the project directory:
-   cd map-app
-   ````Clone the repository: Open the integrated terminal in VSCode (View > Terminal), then run the following command to clone the repository: git clone https://github.com/yourusername/map-app.git
    `````
 
 \*\*\*Navigate to the project directory: cd Map-app
