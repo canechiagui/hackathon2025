@@ -6,7 +6,12 @@
     "lat": 52.52,
     "lon": 13.405,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Berlin",
-    "imageUrls": ["https://www.travelandleisure.com/thmb/Etq4zWgOW-z9H7ZScs5_6WDcDvQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/berlin-germany-aerial-lead-BERLINTG0921-475e3a333c7f4fdea7743c6fc2f261af.jpg","https://i.natgeofe.com/n/b234ec7d-a988-4b75-9e65-749ddcbea7a0/citylife_berlin_2B4H3T1_web_2x1.jpg", "https://cdn.britannica.com/49/179449-138-9F4EC401/Overview-Berlin.jpg?w=800&h=450&c=crop"]
+    "mainImg": "https://www.travelandleisure.com/thmb/Etq4zWgOW-z9H7ZScs5_6WDcDvQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/berlin-germany-aerial-lead-BERLINTG0921-475e3a333c7f4fdea7743c6fc2f261af.jpg",
+    "imageUrls": [
+      "https://www.travelandleisure.com/thmb/Etq4zWgOW-z9H7ZScs5_6WDcDvQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/berlin-germany-aerial-lead-BERLINTG0921-475e3a333c7f4fdea7743c6fc2f261af.jpg",
+      "https://i.natgeofe.com/n/b234ec7d-a988-4b75-9e65-749ddcbea7a0/citylife_berlin_2B4H3T1_web_2x1.jpg",
+      "https://cdn.britannica.com/49/179449-138-9F4EC401/Overview-Berlin.jpg?w=800&h=450&c=crop"
+    ]
   },
   {
     "id": 2,
@@ -15,7 +20,12 @@
     "lat": 53.5511,
     "lon": 9.9937,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Hamburg",
-    "imageUrls": ["https://media.tacdn.com/media/attractions-content--1x-1/12/29/3f/49.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqmKkQB52CKSXBdW-2VlMdC3Il5ceQge_mQ&s","https://thewell-travelledpostcard.com/wp-content/uploads/2018/06/img_4002.jpg?w=878&h=702"]
+    "mainImg": "https://media.tacdn.com/media/attractions-content--1x-1/12/29/3f/49.jpg",
+    "imageUrls": [
+      "https://media.tacdn.com/media/attractions-content--1x-1/12/29/3f/49.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqmKkQB52CKSXBdW-2VlMdC3Il5ceQge_mQ&s",
+      "https://thewell-travelledpostcard.com/wp-content/uploads/2018/06/img_4002.jpg?w=878&h=702"
+    ]
   },
   {
     "id": 3,
@@ -24,7 +34,12 @@
     "lat": 53.0793,
     "lon": 8.8017,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Bremen",
-    "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJafY11uCCEPtA5DJWV5oy83CypFhW-zD_A&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FL4CMGT4JqylSkjePteQFPCawwU_AdjZ2w&s","https://media.tacdn.com/media/attractions-content--1x-1/11/ed/63/16.jpg"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJafY11uCCEPtA5DJWV5oy83CypFhW-zD_A&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJafY11uCCEPtA5DJWV5oy83CypFhW-zD_A&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-FL4CMGT4JqylSkjePteQFPCawwU_AdjZ2w&s",
+      "https://media.tacdn.com/media/attractions-content--1x-1/11/ed/63/16.jpg"
+    ]
   },
   {
     "id": 4,
@@ -33,7 +48,12 @@
     "lat": 48.1351,
     "lon": 11.582,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Munich",
-   "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMly0MtckTzH8QeFoU5PXoBxRk5Hzmmhd5_g&s","https://www.mensjournal.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk2MTM2NzMyMzAxNTM0NzI1/munichbeerhall.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvAbVIxGhe4Z7XQ3aqVcMJk-RiZWwzaz657w&s"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMly0MtckTzH8QeFoU5PXoBxRk5Hzmmhd5_g&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMly0MtckTzH8QeFoU5PXoBxRk5Hzmmhd5_g&s",
+      "https://www.mensjournal.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk2MTM2NzMyMzAxNTM0NzI1/munichbeerhall.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvAbVIxGhe4Z7XQ3aqVcMJk-RiZWwzaz657w&s"
+    ]
   },
   {
     "id": 5,
@@ -42,7 +62,12 @@
     "lat": 48.7758,
     "lon": 9.1829,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Stuttgart",
-    "imageUrls": ["https://www.goatsontheroad.com/wp-content/uploads/2021/10/digital-nomad-guide-to-living-in-Stuttgart-Germany.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6sGvFBLRaLa6GYbWyj0FZbi6XataHV0Sfsw&s","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg/640px-Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg"]
+    "mainImg": "https://www.goatsontheroad.com/wp-content/uploads/2021/10/digital-nomad-guide-to-living-in-Stuttgart-Germany.jpg",
+    "imageUrls": [
+      "https://www.goatsontheroad.com/wp-content/uploads/2021/10/digital-nomad-guide-to-living-in-Stuttgart-Germany.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6sGvFBLRaLa6GYbWyj0FZbi6XataHV0Sfsw&s",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg/640px-Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg"
+    ]
   },
   {
     "id": 6,
@@ -51,7 +76,12 @@
     "lat": 51.2277,
     "lon": 6.7735,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Düsseldorf",
-    "imageUrls": ["https://media.istockphoto.com/id/2063344747/photo/view-of-media-harbor-medienhafen-business-and-historical-buildings-with-blue-sky.jpg?s=612x612&w=0&k=20&c=r-IpjOSpIfAq32Yd1pBms72E2SmvOQDL2z1m9-U1mVg=","https://media.gettyimages.com/id/929537852/photo/media-harbour-duesseldorf-at-dusk.jpg?s=612x612&w=gi&k=20&c=d6XmFJhXV7dpxakIru_8YNO8Pa-UQVXqDCFM5dGIDoI=","https://media.istockphoto.com/id/922680834/photo/dusseldorf-germany.jpg?s=612x612&w=0&k=20&c=C9vQ4-zgwEyPDO-euzF1R3Yhli75P0sRSoOflMa3vVE="]
+    "mainImg": "https://media.istockphoto.com/id/2063344747/photo/view-of-media-harbor-medienhafen-business-and-historical-buildings-with-blue-sky.jpg?s=612x612&w=0&k=20&c=r-IpjOSpIfAq32Yd1pBms72E2SmvOQDL2z1m9-U1mVg=",
+    "imageUrls": [
+      "https://media.istockphoto.com/id/2063344747/photo/view-of-media-harbor-medienhafen-business-and-historical-buildings-with-blue-sky.jpg?s=612x612&w=0&k=20&c=r-IpjOSpIfAq32Yd1pBms72E2SmvOQDL2z1m9-U1mVg=",
+      "https://media.gettyimages.com/id/929537852/photo/media-harbour-duesseldorf-at-dusk.jpg?s=612x612&w=gi&k=20&c=d6XmFJhXV7dpxakIru_8YNO8Pa-UQVXqDCFM5dGIDoI=",
+      "https://media.istockphoto.com/id/922680834/photo/dusseldorf-germany.jpg?s=612x612&w=0&k=20&c=C9vQ4-zgwEyPDO-euzF1R3Yhli75P0sRSoOflMa3vVE="
+    ]
   },
   {
     "id": 7,
@@ -60,7 +90,12 @@
     "lat": 52.3759,
     "lon": 9.732,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Hanover",
-    "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7tJsajksJkxqoFllxyOKGU_5txuU4gs69A&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaBBuLkSOUAKWER80JaCR7UsVf82fEfi18zg&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4Zmqq_9ClNnVGvAdlvkUJd7-DRaPbNJQug&s"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7tJsajksJkxqoFllxyOKGU_5txuU4gs69A&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7tJsajksJkxqoFllxyOKGU_5txuU4gs69A&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaBBuLkSOUAKWER80JaCR7UsVf82fEfi18zg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4Zmqq_9ClNnVGvAdlvkUJd7-DRaPbNJQug&s"
+    ]
   },
   {
     "id": 8,
@@ -69,7 +104,12 @@
     "lat": 50.0826,
     "lon": 8.24,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Wiesbaden",
-    "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtPLsqd67DnetwwcBZY-lKZoLBT-j53h0dIg&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGB5USEALDWlHrjQ6bkIioxrg-UsPb3IKHxg&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIDNqT0EIW_yhETOmHMW0v5TUm-K0COxbsOQ&s"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtPLsqd67DnetwwcBZY-lKZoLBT-j53h0dIg&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtPLsqd67DnetwwcBZY-lKZoLBT-j53h0dIg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGB5USEALDWlHrjQ6bkIioxrg-UsPb3IKHxg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIDNqT0EIW_yhETOmHMW0v5TUm-K0COxbsOQ&s"
+    ]
   },
   {
     "id": 9,
@@ -78,7 +118,12 @@
     "lat": 49.9929,
     "lon": 8.2473,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Mainz",
-    "imageUrls": ["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mainz_aerial_photograph.jpg/400px-Mainz_aerial_photograph.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LI908y2Ep7OuTjpS2wdnCz52s_RhLiM6aQ&s","https://149808162.v2.pressablecdn.com/wp-content/uploads/2023/04/HalftimberedHousesinMainzGermany.jpg"]
+    "mainImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mainz_aerial_photograph.jpg/400px-Mainz_aerial_photograph.jpg",
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mainz_aerial_photograph.jpg/400px-Mainz_aerial_photograph.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4LI908y2Ep7OuTjpS2wdnCz52s_RhLiM6aQ&s",
+      "https://149808162.v2.pressablecdn.com/wp-content/uploads/2023/04/HalftimberedHousesinMainzGermany.jpg"
+    ]
   },
   {
     "id": 10,
@@ -87,7 +132,12 @@
     "lat": 49.2402,
     "lon": 6.9969,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Saarbrücken",
-   "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFz5STNyx33zElGHieUnrnHqLZVl4cNyPhrA&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkEBQGE9qx1fqaNgro5MbPzg5DLt43Haoiyw&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6mJxT-OdbjPqOKz__-cSsmzeTpH_n1inD8w&s"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFz5STNyx33zElGHieUnrnHqLZVl4cNyPhrA&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFz5STNyx33zElGHieUnrnHqLZVl4cNyPhrA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkEBQGE9qx1fqaNgro5MbPzg5DLt43Haoiyw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6mJxT-OdbjPqOKz__-cSsmzeTpH_n1inD8w&s"
+    ]
   },
   {
     "id": 11,
@@ -96,7 +146,12 @@
     "lat": 54.3233,
     "lon": 10.1228,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Kiel",
-   "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YRyyemuWcG3vXu1L4j-VV0tlb2RKAr0qTg&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxNNEmZoXKFRYQY_lk3H7-MnES6SExrYG2yQ&s","https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Kiel_Luftaufnahme_02.jpg/1200px-Kiel_Luftaufnahme_02.jpg"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YRyyemuWcG3vXu1L4j-VV0tlb2RKAr0qTg&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YRyyemuWcG3vXu1L4j-VV0tlb2RKAr0qTg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxNNEmZoXKFRYQY_lk3H7-MnES6SExrYG2yQ&s",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Kiel_Luftaufnahme_02.jpg/1200px-Kiel_Luftaufnahme_02.jpg"
+    ]
   },
   {
     "id": 12,
@@ -105,7 +160,12 @@
     "lat": 52.1205,
     "lon": 11.6276,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Magdeburg",
-    "imageUrls": ["https://c8.alamy.com/comp/R067GP/aerial-view-cathedral-of-magdeburg-cathedral-square-next-to-ministry-of-justice-and-equality-of-saxony-anhalt-magdeburg-altstadt-magdeburg-saxony-R067GP.jpg","https://miro.medium.com/v2/resize:fit:2000/1*xHkPGFkG7HYfXdXEabZoEw.jpeg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-pRuwZ_ru1mPK47x7_WqMXCCVEP3HLUyF1w&s"]
+    "mainImg": "https://c8.alamy.com/comp/R067GP/aerial-view-cathedral-of-magdeburg-cathedral-square-next-to-ministry-of-justice-and-equality-of-saxony-anhalt-magdeburg-altstadt-magdeburg-saxony-R067GP.jpg",
+    "imageUrls": [
+      "https://c8.alamy.com/comp/R067GP/aerial-view-cathedral-of-magdeburg-cathedral-square-next-to-ministry-of-justice-and-equality-of-saxony-anhalt-magdeburg-altstadt-magdeburg-saxony-R067GP.jpg",
+      "https://miro.medium.com/v2/resize:fit:2000/1*xHkPGFkG7HYfXdXEabZoEw.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-pRuwZ_ru1mPK47x7_WqMXCCVEP3HLUyF1w&s"
+    ]
   },
   {
     "id": 13,
@@ -114,7 +174,12 @@
     "lat": 52.3906,
     "lon": 13.0645,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Potsdam",
-   "imageUrls": ["https://www.exoticca.com/_next/image?url=https%3A%2F%2Fuploads.exoticca.com%2Fglobal%2Fdestination%2Fpoi%2Fpotsdam.png&w=3840&q=75","https://lp-cms-production.imgix.net/2019-06/fb553b0d63dff8e11924031ba823afd0-potsdam.jpg","https://cdn.elebase.io/173fe953-8a63-4a8a-8ca3-1bacb56d78a5/996e73ec-76e4-4c64-aa53-413b0d610da7-shutterstock_460944208_jrossphoto-neues-palais-potsdam-germany.jpg?w=1000&h=500&fit=crop&q=75"]
+    "mainImg": "https://www.exoticca.com/_next/image?url=https%3A%2F%2Fuploads.exoticca.com%2Fglobal%2Fdestination%2Fpoi%2Fpotsdam.png&w=3840&q=75",
+    "imageUrls": [
+      "https://www.exoticca.com/_next/image?url=https%3A%2F%2Fuploads.exoticca.com%2Fglobal%2Fdestination%2Fpoi%2Fpotsdam.png&w=3840&q=75",
+      "https://lp-cms-production.imgix.net/2019-06/fb553b0d63dff8e11924031ba823afd0-potsdam.jpg",
+      "https://cdn.elebase.io/173fe953-8a63-4a8a-8ca3-1bacb56d78a5/996e73ec-76e4-4c64-aa53-413b0d610da7-shutterstock_460944208_jrossphoto-neues-palais-potsdam-germany.jpg?w=1000&h=500&fit=crop&q=75"
+    ]
   },
   {
     "id": 14,
@@ -123,7 +188,12 @@
     "lat": 50.9848,
     "lon": 11.0299,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Erfurt",
-    "imageUrls": ["https://th-thumbnailer.cdn-si-edu.com/5KAIEtjV8pxXSp6hI3rfbQx-I7M=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/96/a3/96a35dea-ecd3-46f5-9b10-67c935ba438f/istock-170430981.jpg","https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/000/515/medium/1606d3f58bc21d84ebc9e1b455acc5bd/641_Erfurt.jpg","https://a.travel-assets.com/findyours-php/viewfinder/images/res70/261000/261347-Erfurt.jpg"]
+    "mainImg": "https://th-thumbnailer.cdn-si-edu.com/5KAIEtjV8pxXSp6hI3rfbQx-I7M=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/96/a3/96a35dea-ecd3-46f5-9b10-67c935ba438f/istock-170430981.jpg",
+    "imageUrls": [
+      "https://th-thumbnailer.cdn-si-edu.com/5KAIEtjV8pxXSp6hI3rfbQx-I7M=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/96/a3/96a35dea-ecd3-46f5-9b10-67c935ba438f/istock-170430981.jpg",
+      "https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/000/515/medium/1606d3f58bc21d84ebc9e1b455acc5bd/641_Erfurt.jpg",
+      "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/261000/261347-Erfurt.jpg"
+    ]
   },
   {
     "id": 15,
@@ -132,7 +202,12 @@
     "lat": 51.0504,
     "lon": 13.7373,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Dresden",
-   "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MGt_W_j4ApDTiWRHAbWoS-ImeEzcm_i5Vg&s","https://birdinflight.com/wp-content/uploads/2022/12/cover_dresden.jpg","https://content.r9cdn.net/rimg/dimg/ab/27/01df0ad9-city-18925-165428b654b.jpg?width=1366&height=768&xhint=1589&yhint=850&crop=true"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MGt_W_j4ApDTiWRHAbWoS-ImeEzcm_i5Vg&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MGt_W_j4ApDTiWRHAbWoS-ImeEzcm_i5Vg&s",
+      "https://birdinflight.com/wp-content/uploads/2022/12/cover_dresden.jpg",
+      "https://content.r9cdn.net/rimg/dimg/ab/27/01df0ad9-city-18925-165428b654b.jpg?width=1366&height=768&xhint=1589&yhint=850&crop=true"
+    ]
   },
   {
     "id": 16,
@@ -141,6 +216,11 @@
     "lat": 53.6355,
     "lon": 11.414,
     "moreInfoUrl": "https://en.wikipedia.org/wiki/Schwerin",
-    "imageUrls": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1C5Ji9f_IDnKb6foRRNyaVyujyY8ENVJMnA&s","https://www.planetware.com/wpimages/2023/03/germany-schwerin-top-attractions-easy-day-trips-intro-paragraph-castle-aerial.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7TxVOFP6nc0OWackyFYgZ-AWmUoZ4tDpXg&s"]
+    "mainImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1C5Ji9f_IDnKb6foRRNyaVyujyY8ENVJMnA&s",
+    "imageUrls": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1C5Ji9f_IDnKb6foRRNyaVyujyY8ENVJMnA&s",
+      "https://www.planetware.com/wpimages/2023/03/germany-schwerin-top-attractions-easy-day-trips-intro-paragraph-castle-aerial.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx7TxVOFP6nc0OWackyFYgZ-AWmUoZ4tDpXg&s"
+    ]
   }
 ]

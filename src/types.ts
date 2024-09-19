@@ -5,5 +5,6 @@ export interface Location {
   lat: number;
   lon: number;
   moreInfoUrl: string;
+  mainImg: string;
   imageUrls?: string[];
 }
