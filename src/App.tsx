@@ -10,7 +10,7 @@ const MapComponent = React.lazy(() => import('./components/Map'));
 
 const App: React.FC = () => {
   const [locations, setLocations] = useState<Location[]>([]);
-  const [currLocation, setCurrLocation] = useState<Location>(locations[0]);
+  const [currLocation, setCurrLocation] = useState<Location | undefined>(undefined);
   const [filteredLocations, setFilteredLocations] = useState<Location[]>([]);
   const searchInputRef = useRef<HTMLInputElement | null>(null);
   const dispatch = useDispatch();
@@ -22,6 +22,10 @@ const App: React.FC = () => {
       const data = await response.json();
       setLocations(data);
       setFilteredLocations(data);
+      // Set Houston (Downtown) as the initial current location
+      if (data.length > 0) {
+        setCurrLocation(data[0]); // Downtown Houston is the first item
+      }
     };
 
     fetchLocations();

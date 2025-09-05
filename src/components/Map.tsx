@@ -9,11 +9,11 @@ import NearMeIcon from '@mui/icons-material/NearMe';
 
 interface MapProps {
   locations: Location[];
-  currLocation: Location;
+  currLocation: Location | undefined;
 }
 
 // Component to display and move the map to the current location
-const MapView: React.FC<{ currLocation: Location }> = React.memo(({ currLocation }) => {
+const MapView: React.FC<{ currLocation: Location | undefined }> = React.memo(({ currLocation }) => {
   const map = useMap();
 
   // Selector for triggering map movements, memoized to prevent re-renders
@@ -78,7 +78,7 @@ const LocateControl: React.FC = React.memo(() => {
 
 // Main map component
 const Map: React.FC<MapProps> = ({ locations, currLocation }) => {
-  const defaultPosition: [number, number] = [52.52, 13.405]; // Default center position (Berlin)
+  const defaultPosition: [number, number] = [29.7604, -95.3698]; // Default center position (Houston)
 
   return (
     <div className="map-container" style={{ position: 'relative' }}>
